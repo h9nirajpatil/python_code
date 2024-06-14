@@ -1,0 +1,7 @@
+#min() max() sort()
+nums=(10,20,30,40,444,555,67,20)
+print("largest no.:-",max(nums))
+print("smalles no.:-",min(nums))
+repeat=int(input("Enter the no which repeat "))
+print("count the number number of times ",repeat," occurs:- ",nums.count(repeat))
+print("index of 10:- ",nums.index(10))
